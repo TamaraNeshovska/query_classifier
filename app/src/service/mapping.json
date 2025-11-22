@@ -1,0 +1,62 @@
+{
+  "Sensitive_Medical_Legal": {
+    "temperature": 0.05,
+    "reasoning_effort": "maximal",
+    "verbosity": "concise",
+    "web": "disabled"
+  },
+  "Coding": {
+    "temperature": 0.1,
+    "reasoning_effort": "high",
+    "verbosity": "concise",
+    "web": "disabled"
+  },
+  "Debugging": {
+    "temperature": 0.1,
+    "reasoning_effort": "high",
+    "verbosity": "concise",
+    "web": "disabled"
+  },
+  "Creative_Writing": {
+    "temperature": 0.9,
+    "reasoning_effort": "minimal",
+    "verbosity": "verbose",
+    "web": "disabled"
+  },
+  "Factual_QA": {
+    "temperature": 0.2,
+    "reasoning_effort": "medium",
+    "verbosity": "balanced",
+    "web": "mandatory"
+  },
+  "Summarization": {
+    "temperature": 0.3,
+    "reasoning_effort": "medium",
+    "verbosity": "balanced",
+    "web": "disabled"
+  },
+  "Translation": {
+    "temperature": 0.2,
+    "reasoning_effort": "medium",
+    "verbosity": "balanced",
+    "web": "disabled"
+  },
+  "Data_Analysis": {
+    "temperature": 0.2,
+    "reasoning_effort": "high",
+    "verbosity": "balanced",
+    "web": "optional"
+  },
+  "Planning_Itinerary": {
+    "temperature": 0.5,
+    "reasoning_effort": "medium",
+    "verbosity": "verbose",
+    "web": "optional"
+  },
+  "ChitChat": {
+    "temperature": 0.6,
+    "reasoning_effort": "minimal",
+    "verbosity": "verbose",
+    "web": "disabled"
+  }
+}
