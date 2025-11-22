@@ -5,7 +5,9 @@ import json
 # Initialize a new router
 router = APIRouter()
 
-LATENCY_FILE = Path("latency_log.json")
+LATENCY_FILE = Path(__file__).parent.parent / "service" / "latency_log.json"
+print("Latency file path:", LATENCY_FILE.resolve())
+
 
 @router.get("/latency")
 def get_average_latency():

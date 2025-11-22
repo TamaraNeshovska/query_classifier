@@ -11,6 +11,9 @@ logger = get_logger("script:classify")
 BASE_DIR = Path(__file__).parent
 MAPPING_PATH = BASE_DIR / "mapping.json"
 LATENCY_FILE = BASE_DIR / "latency_log.json"
+print(f"latency file {LATENCY_FILE.resolve()}")
+LATENCY_FILE2 = Path(__file__).parent / "latency_log.json"
+print("Latency file path:", LATENCY_FILE2.resolve())
 
 # --- Load category mapping ---
 with MAPPING_PATH.open("r") as f:

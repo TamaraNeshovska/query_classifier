@@ -67,7 +67,11 @@
     {
       "prompt": "can you translate this text for me and give me a short summary",
       "latency": 1.234
+    },
+    {
+      "prompt": "hi",
+      "latency": 1.05
     }
   ],
-  "average_latency": 1.2708235294117647
+  "average_latency": 1.2585555555555556
 }
