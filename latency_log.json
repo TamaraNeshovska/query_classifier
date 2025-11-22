@@ -43,7 +43,19 @@
     {
       "prompt": "what pills should i take for headache?",
       "latency": 1.1095890998840332
+    },
+    {
+      "prompt": "string",
+      "latency": 3.070836305618286
+    },
+    {
+      "prompt": "hi",
+      "latency": 0.8528943061828613
+    },
+    {
+      "prompt": "hi, what do to today, help me plan",
+      "latency": 1.2558157444000244
     }
   ],
-  "average_latency": 1.1929809180173008
+  "average_latency": 1.3073097467422485
 }

@@ -1,0 +1,73 @@
+{
+  "queries": [
+    {
+      "prompt": "hi",
+      "latency": 1.015
+    },
+    {
+      "prompt": "hi, what to eat today ",
+      "latency": 1.095
+    },
+    {
+      "prompt": "hi, what to eat today , can you help me plan",
+      "latency": 1.264
+    },
+    {
+      "prompt": "hi",
+      "latency": 1.076
+    },
+    {
+      "prompt": "How do I reverse a linked list in Python?",
+      "latency": 1.233
+    },
+    {
+      "prompt": "Write a short story about a robot discovering emotions.",
+      "latency": 1.186
+    },
+    {
+      "prompt": "Who was the first person to climb Mount Everest?",
+      "latency": 1.194
+    },
+    {
+      "prompt": "Plan a 5-day trip to Rome and suggest a travel journal entry for each day.",
+      "latency": 1.405
+    },
+    {
+      "prompt": "Write a poem about climate change and include factual statistics",
+      "latency": 1.334
+    },
+    {
+      "prompt": "Provide a summary of the GDPR regulations and write a simple explanation for non-lawyers",
+      "latency": 1.437
+    },
+    {
+      "prompt": "I need tips for healthy eating and a Python script to track my calories.",
+      "latency": 1.718
+    },
+    {
+      "prompt": "Write a dialogue between two friends planning a hiking trip, including an itinerary and packing checklist.",
+      "latency": 1.411
+    },
+    {
+      "prompt": "help me solve this problem in python and crate a fucntion",
+      "latency": 1.362
+    },
+    {
+      "prompt": "can you give me a statistic about macedonian market",
+      "latency": 1.264
+    },
+    {
+      "prompt": "do  i need to visit a doctor if i have red eye",
+      "latency": 1.228
+    },
+    {
+      "prompt": "do i need to pay taxes",
+      "latency": 1.148
+    },
+    {
+      "prompt": "can you translate this text for me and give me a short summary",
+      "latency": 1.234
+    }
+  ],
+  "average_latency": 1.2708235294117647
+}

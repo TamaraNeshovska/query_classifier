@@ -19,6 +19,30 @@ It allows AI-driven applications to adapt dynamically based on the type of user 
   - Reasoning effort
   - Web-use toggle
 
+## Project Structure
+
+```bash
+app/
+├── frontend/
+│   └── streamlit.py
+├── src/
+│   ├── routers/
+│   │   ├── classify.py
+│   │   ├── healthcheck.py
+│   │   └── latency.py
+│   ├── schemas/
+│   │   └── schemas.py
+│   ├── service/
+│   │   ├── latency_log.json
+│   │   ├── logger.py
+│   │   ├── mapping.json
+│   │   ├── service.py
+│   │   └── synthethic_data_generation.py
+│   └── main.py
+├── log/
+├── README.md
+└── requirements.txt
+```
 ## API Usage
 
 **Endpoint:**  
